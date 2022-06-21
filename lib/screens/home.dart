@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
                   child: ListTile(
                     title: Text(list[index].title ?? "This note has no title"),
                     subtitle: Text(
-                      list[index].content ?? "This box has no body",
+                      list[index].content ?? "This note has no body",
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),
